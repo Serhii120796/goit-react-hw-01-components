@@ -1,19 +1,22 @@
 .profile {
     max-width: 300px;
-    margin: 0 auto;
-
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 50px;
 }
 
 .description{
     padding: 30px 0;
     text-align: center;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 .avatar{
     width: 100px;
     border-radius: 50%;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .name{
@@ -24,24 +27,24 @@ margin-bottom: 10px;
 
 .tag,
 .location{
-    color: #b9b9b9;
+    color: var(--gray);
     margin-bottom: 10px;
 }
 .stats {
     display: flex;
-    background-color: rgb(244, 242, 242);
+    background-color: var(--light-gray);
 
 }
 .stats-item {
     width: calc(100% / 3);
     text-align: center;
-    border: #b9b9b9 1px solid;
-    padding: 20px 0;
+    border: var(--gray) 1px solid;
+    padding: 20px 5px;
 }
 
 .label {
 display: block;
-color: #b9b9b9;
+color: var(--gray);
 margin-bottom: 8px;
 }
 

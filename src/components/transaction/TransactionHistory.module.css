@@ -16,11 +16,11 @@ thead {
 
 tbody {
   color: var(--gray);
-background-color: var(--white);
+  background-color: var(--white);
 }
 
-tr:nth-child(2n+2) {
-    background-color: var(--light-gray);
+tr:nth-child(2n + 2) {
+  background-color: var(--light-gray);
 }
 
 th,
@@ -30,7 +30,7 @@ td {
 }
 
 td {
-    background-color: inherit;
+  background-color: inherit;
 }
 
 .type {
@@ -44,4 +44,3 @@ td {
 .currency {
   text-align: center;
 }
-
